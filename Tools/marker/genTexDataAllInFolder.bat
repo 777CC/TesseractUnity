@@ -1,0 +1,1 @@
+forfiles /s /m *.jpg /c "cmd /c genTexData.exe @path -level=3  -leveli=3 -min_dpi=10  -max_dpi=120"
